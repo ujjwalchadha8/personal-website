@@ -1,0 +1,101 @@
+[debug] [2018-08-22T18:56:03.119Z] ----------------------------------------------------------------------
+[debug] [2018-08-22T18:56:03.130Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ujjwalchadha8\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-08-22T18:56:03.130Z] CLI Version:   3.18.4
+[debug] [2018-08-22T18:56:03.130Z] Platform:      win32
+[debug] [2018-08-22T18:56:03.131Z] Node Version:  v9.3.0
+[debug] [2018-08-22T18:56:03.133Z] Time:          Thu Aug 23 2018 00:26:03 GMT+0530 (India Standard Time)
+[debug] [2018-08-22T18:56:03.133Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-22T18:56:03.393Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-22T18:56:03.393Z] > authorizing via signed-in user
+[debug] [2018-08-22T18:56:03.409Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-22T18:56:03.409Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/ENBeSTKujvD4mhQBS9U2rG_xD0DZpH5Z-age1bQPx44',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Thu Aug 23 2018 00:26:03 GMT+0530 (India Standard Time)
+[debug] [2018-08-22T18:56:03.657Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-22T18:56:03.795Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/ujjwalchadha-34d54  
+  
+ Thu Aug 23 2018 00:26:03 GMT+0530 (India Standard Time)
+[debug] [2018-08-22T18:56:08.300Z] ----------------------------------------------------------------------
+[debug] [2018-08-22T18:56:08.304Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ujjwalchadha8\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-08-22T18:56:08.304Z] CLI Version:   3.18.4
+[debug] [2018-08-22T18:56:08.304Z] Platform:      win32
+[debug] [2018-08-22T18:56:08.304Z] Node Version:  v9.3.0
+[debug] [2018-08-22T18:56:08.306Z] Time:          Thu Aug 23 2018 00:26:08 GMT+0530 (India Standard Time)
+[debug] [2018-08-22T18:56:08.306Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-22T18:56:08.315Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-22T18:56:08.315Z] > authorizing via signed-in user
+[debug] [2018-08-22T18:56:08.315Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/ujjwalchadha-34d54  
+  
+ Thu Aug 23 2018 00:26:08 GMT+0530 (India Standard Time)
+[debug] [2018-08-22T18:56:08.744Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-22T18:56:08.747Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/ujjwalchadha-34d54/tokens  
+  
+ Thu Aug 23 2018 00:26:08 GMT+0530 (India Standard Time)
+[debug] [2018-08-22T18:56:09.281Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-22T18:56:09.282Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/ujjwalchadha-34d54  
+  
+ Thu Aug 23 2018 00:26:09 GMT+0530 (India Standard Time)
+[debug] [2018-08-22T18:56:09.737Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Projects\PersonalWebsite'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-08-22T18:58:08.172Z] Fetching environment
+[debug] [2018-08-22T18:58:08.200Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/467961130604:getServerAppConfig  
+  
+ Thu Aug 23 2018 00:28:08 GMT+0530 (India Standard Time)
+[debug] [2018-08-22T18:58:08.200Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/467961130604/clients/_:getWebAppConfig  
+  
+ Thu Aug 23 2018 00:28:08 GMT+0530 (India Standard Time)
+[debug] [2018-08-22T18:58:08.586Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-22T18:58:09.597Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-22T18:58:09.597Z] Starting @google-cloud/functions-emulator
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[debug] [2018-08-22T18:58:39.064Z] Parsing function triggers
+[warn] !  functions: Failed to load functions source code. Ensure that you have the latest SDK by running npm i --save firebase-functions inside the functions directory.
+[debug] [2018-08-22T18:58:40.398Z] Error during trigger parsing:  Error parsing triggers: Cannot find module 'firebase-functions'
+
+Try running "npm install" in your functions directory before deploying.
+[warn] !  functions: Error from emulator. Error parsing triggers: Cannot find module 'firebase-functions'
+
+Try running "npm install" in your functions directory before deploying.
+[debug] [2018-08-22T18:58:40.399Z] 
+[debug] [2018-08-24T19:15:21.957Z] ----------------------------------------------------------------------
+[debug] [2018-08-24T19:15:21.964Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ujjwalchadha8\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-08-24T19:15:21.964Z] CLI Version:   3.18.4
+[debug] [2018-08-24T19:15:21.964Z] Platform:      win32
+[debug] [2018-08-24T19:15:21.964Z] Node Version:  v9.3.0
+[debug] [2018-08-24T19:15:21.966Z] Time:          Sat Aug 25 2018 00:45:21 GMT+0530 (India Standard Time)
+[debug] [2018-08-24T19:15:21.966Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-24T19:15:22.358Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-24T19:15:22.361Z] > authorizing via signed-in user
+[debug] [2018-08-24T19:15:22.365Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-24T19:15:22.368Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/ENBeSTKujvD4mhQBS9U2rG_xD0DZpH5Z-age1bQPx44',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Aug 25 2018 00:45:22 GMT+0530 (India Standard Time)
+[debug] [2018-08-24T19:15:22.648Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-24T19:15:24.743Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/ujjwalchadha-34d54  
+  
+ Sat Aug 25 2018 00:45:24 GMT+0530 (India Standard Time)
+[debug] [2018-08-24T19:15:25.710Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-24T19:15:25.712Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/ujjwalchadha-34d54/tokens  
+  
+ Sat Aug 25 2018 00:45:25 GMT+0530 (India Standard Time)
+[debug] [2018-08-24T19:15:26.237Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-24T19:15:26.239Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/ujjwalchadha-34d54  
+  
+ Sat Aug 25 2018 00:45:26 GMT+0530 (India Standard Time)
+[debug] [2018-08-24T19:15:26.540Z] <<< HTTP RESPONSE 200
